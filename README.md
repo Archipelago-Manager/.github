@@ -1,0 +1,2 @@
+# .github
+Archipelago-Manager readme
