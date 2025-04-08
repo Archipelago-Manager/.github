@@ -7,9 +7,15 @@ Projects is made to be fully open source and self-hostable, but will also serve 
 ## Components
 
 #### [archipelago-manager-backend](https://github.com/Archipelago-Manager/archipelago-manager-backend)
+<a href="https://github.com/Archipelago-Manager/archipelago-manager-backend/actions?query=workflow%3Apytest" target="_blank"><img src="https://github.com/Archipelago-Manager/archipelago-manager-backend/actions/workflows/test.yml/badge.svg" alt="Test"></a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/Archipelago-Manager/archipelago-manager-backend" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/Archipelago-Manager/archipelago-manager-backend.svg" alt="Coverage"></a>
+
 Main backend that handles most management, like users, servers, configurations, discord settings etc.
 
 #### [archipelago-manager-node](https://github.com/Archipelago-Manager/archipelago-manager-node)
+<a href="https://github.com/Archipelago-Manager/archipelago-manager-node/actions?query=workflow%3Apytest" target="_blank"><img src="https://github.com/Archipelago-Manager/archipelago-manager-node/actions/workflows/test.yml/badge.svg" alt="Test"></a>
+<a href="https://coverage-badge.samuelcolvin.workers.dev/redirect/Archipelago-Manager/archipelago-manager-node" target="_blank"><img src="https://coverage-badge.samuelcolvin.workers.dev/Archipelago-Manager/archipelago-manager-node.svg" alt="Coverage"></a>
+
 Backend/node for actual Archipelago servers, this is separated from the backend to allow for easier scaling of these server, for example using kubernetes.
 Communication to/from the node API will only be through the backend.
 
